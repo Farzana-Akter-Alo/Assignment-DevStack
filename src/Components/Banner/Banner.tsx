@@ -1,4 +1,3 @@
-import React from "react";
 import BannerImg from "../../assets/banner-stack.png";
 
 const Banner = () => {
@@ -10,14 +9,17 @@ const Banner = () => {
           <div>
             <h1 className="text-5xl font-bold">
               Build Your Ideal <br />
-               <span className=""> Development Stack</span>
+              <span className=""> Development Stack</span>
             </h1>
             <p className="py-6">
-              Explore frontend, backend, database, and tooling options, <br />  compare
-              them side by side, and put together the stack that fits your <br />  next
-              project.
+              Explore frontend, backend, database, and tooling options, <br />{" "}
+              compare them side by side, and put together the stack that fits
+              your <br /> next project.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+           <div className="flex gap-4 ">
+             <button className="text-white w-48 bg-gradient-to-r from-[#F97316] to-[#EC4899] px-4 py-2 rounded-sm font-semibold">Explore Technologies</button>
+            <button className=" border border-base-300 w-48 px-4 py-2 rounded-sm font-semibold">Learn More</button>
+           </div>
           </div>
         </div>
       </div>
