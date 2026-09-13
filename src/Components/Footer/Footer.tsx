@@ -2,8 +2,8 @@ import FooterImg from "../../assets/logo-text.png";
 
 const Footer = () => {
   return (
-    <footer className="container mx-auto">
-      <div className="footer sm:footer-horizontal p-4 mb-10">
+    <footer className="container mx-auto mt-20  ">
+      <div className="footer sm:footer-horizontal p-4 mb-10 border-t-2 border-base-300 x-4 pt-16">
         <aside>
           <img src={FooterImg} alt="" />
           <p className="text-base-content">

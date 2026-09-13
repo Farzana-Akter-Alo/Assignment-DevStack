@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import TechnologyCard from "./TechnologyCard";
-import type { Technology } from "../../types/technology";
+import type { Technology } from "../../../types/technology";
 
 const TechnologySection = () => {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
